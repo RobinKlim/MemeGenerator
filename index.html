@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Happy Birthday</title>
+  </head>
+  <body onclick="showMemes()">
+    <div class="startScreen">
+      <p>
+        Hallo Svenja, <br /><br />
+        drücke den Screen, um in deine persönliche Meme-Sammlung einzutauchen
+        <br /><br />
+        Die Memes sind die feinste Auslese aus 1 1/2 Jahren Freundschaft.
+        <br /><br />
+        Während ich anfangs ausschließlich Office-Memes gesammelt habe, hat sich
+        die Sammlung über die Monate diversifiziert. <br /><br />
+        Die Sammlung wird auch fortlaufend erweitert werden! Falls dir gewisse
+        Memes nicht zusagen oder zu sehr cringen gib mir Bescheid!
+        <br /><br />
+        Hab dich lieb, Happy Birthday ♡
+      </p>
+    </div>
+    <div class="meme-content">
+      <img
+        class="memeStatic"
+        onclick="showMemeStatic()"
+        src="drueckMich.jpg
+        "
+        alt=""
+      />
+      <video
+        class="memeDynamic"
+        onclick="showMemeDynamic()"
+        autoplay
+        loop
+        src="https://img-9gag-fun.9cache.com/photo/aLpq0bA_460svav1.mp4"
+      ></video>
+      <!-- <button onclick="showMeme()">Show a Meme</button>         -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
